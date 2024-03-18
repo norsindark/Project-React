@@ -1,0 +1,16 @@
+{
+  "products": [
+    {
+      "id": "2",
+      "name": "Iphone X",
+      "price": "399.99",
+      "description": "Iphone 10 +"
+    },
+    {
+      "id": "93b2",
+      "name": "Iphone 15",
+      "price": "4999.9",
+      "description": "Gac tuyet"
+    }
+  ]
+}
