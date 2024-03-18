@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from "react";
-import "./Styles.css";
 import { useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import "./Styles.css";
 import axios from "axios";
 
 const ProductEdit = () => {
   const { productId } = useParams();
   const [product, setProduct] = useState(null);
+  const navigate = useNavigate();
 
   useEffect(() => {
     fetchProduct();
@@ -30,6 +32,7 @@ const ProductEdit = () => {
       try {
         await axios.put(`http://localhost:3000/products/${productId}`, product);
         window.alert("Product updated successfully!");
+      navigate(`/products`);
       } catch (error) {
         console.error("Error updating product:", error);
       }

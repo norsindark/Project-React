@@ -11,6 +11,12 @@
       "name": "Iphone 15",
       "price": "4999.9",
       "description": "Gac tuyet"
+    },
+    {
+      "id": "1c6c",
+      "name": "Iphone 14",
+      "price": "349.99",
+      "description": "hoi re"
     }
   ]
 }

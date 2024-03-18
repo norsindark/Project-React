@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
 const ProductAdd = () => {
@@ -7,6 +8,8 @@ const ProductAdd = () => {
     price: "",
     description: ""
   });
+
+  const navigate = useNavigate();
 
   const handleChange = (event) => {
     const { name, value } = event.target;
@@ -23,6 +26,7 @@ const ProductAdd = () => {
       console.log("Product added successfully:", response.data);
       window.alert("Product added successfully!");
       setNewProduct({ name: "", price: "", description: "" });
+      navigate(`/products`);
     } catch (error) {
       console.error("Error adding product:", error);
     }
