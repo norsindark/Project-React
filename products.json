@@ -4,7 +4,7 @@
       "id": "2",
       "name": "Iphone X",
       "price": "399.99",
-      "description": "Iphone 10 +"
+      "description": "Iphone 10 +0"
     },
     {
       "id": "93b2",
@@ -13,10 +13,28 @@
       "description": "Gac tuyet"
     },
     {
-      "id": "1c6c",
-      "name": "Iphone 14",
-      "price": "349.99",
-      "description": "hoi re"
+      "id": "4487",
+      "name": "SamSung s24 Ultra",
+      "price": "4995",
+      "description": "Toc"
+    },
+    {
+      "id": "7223",
+      "name": "Samsung Z flip 5",
+      "price": "4999.9",
+      "description": "gac toc"
+    },
+    {
+      "id": "aa42",
+      "name": "Samsung S24 plus",
+      "price": "1459",
+      "description": "!"
+    },
+    {
+      "id": "4fbd",
+      "name": "Iphone 14 Plus",
+      "price": "1499",
+      "description": "Tuyec"
     }
   ]
 }
