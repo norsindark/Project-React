@@ -2,8 +2,10 @@ import React from 'react'
 
 const HomeContent = () => {
   return (
-    <div>
-      Chao Tu Nha!
+    <div className='container'>
+      <p>
+        Home Contents
+      </p>
     </div>
   )
 }

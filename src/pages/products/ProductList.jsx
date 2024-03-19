@@ -111,8 +111,8 @@ const ProductList = () => {
               <td>${product.price}</td>
               <td>{product.description}</td>
               <td>
-                <button onClick={() => handleEdit(product.id)}>Edit</button>
-                <button onClick={() => handleDelete(product.id)}>Del</button>
+                <button className="edit" onClick={() => handleEdit(product.id)}>Edit</button>
+                <button className="del" onClick={() => handleDelete(product.id)}>Del</button>
               </td>
             </tr>
           ))}

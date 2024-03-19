@@ -1,5 +1,7 @@
 .nav { 
     background-color: rgb(209, 233, 242);
+    display: flex;
+    justify-content: center;
 } 
 .nav li {
     display: inline-block;
